@@ -413,6 +413,9 @@ static ALWAYS_INLINE void ParallelFlash_WaitForCompletion(void)
  */
 static ALWAYS_INLINE uint32_t ParallelFlash_UnlockAddress1(void)
 {
+	// FIXME: quick and dirty hack to suport 16-bit chips of larger size
+	return 0x55555555UL;
+
 	// Most chips use alternating bits, with A0 being a 1 bit
 	if (curChipType != ParallelFlash_M29F160FB5AN6E2_x4)
 	{
