@@ -32,7 +32,7 @@
  */
 
 #include "hal/board.h"
-#include "hardware.h"
+#include "hal/at90usb646/hardware.h"
 #include "hal/parallel_bus.h"
 #include "tests/simm_electrical_test.h"
 #include "simm_programmer.h"

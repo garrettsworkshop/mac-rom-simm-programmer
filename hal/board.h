@@ -30,7 +30,7 @@
 
 // Commented-out functions should be static inline in each board-specific header file.
 //GPIOPin Board_LEDPin(void);
-#include "board_hw.h"
+#include "at90usb646/board_hw.h"
 
 void Board_Init(void);
 bool Board_BrownoutDetected(void);

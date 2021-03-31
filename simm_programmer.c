@@ -28,7 +28,7 @@
 #include "tests/simm_electrical_test.h"
 #include "programmer_protocol.h"
 #include "led.h"
-#include "hardware.h"
+#include "hal/at90usb646/hardware.h"
 #include <stdbool.h>
 
 /// Maximum size of an individual chip on a SIMM we read

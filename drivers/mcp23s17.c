@@ -23,7 +23,7 @@
  */
 
 #include "mcp23s17.h"
-#include "hardware.h"
+#include "../hal/at90usb646/hardware.h"
 
 /// Maximum SPI clock rate = 10 MHz
 #define MCP23S17_MAX_CLOCK		10000000UL

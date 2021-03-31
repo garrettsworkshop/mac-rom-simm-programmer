@@ -26,7 +26,7 @@
 #define HAL_SPI_H_
 
 #include "gpio.h"
-#include "spi_private.h"
+#include "at90usb646/spi_private.h"
 
 /// CPHA bit in the SPI mode parameter of SPI_InitDevice
 #define SPI_CPHA				(1 << 0)

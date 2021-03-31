@@ -24,7 +24,7 @@
 
 #include "simm_electrical_test.h"
 #include "../hal/parallel_bus.h"
-#include "hardware.h"
+#include "../hal/at90usb646/hardware.h"
 
 /// The index of the highest SIMM address pin
 #define SIMM_HIGHEST_ADDRESS_LINE			20

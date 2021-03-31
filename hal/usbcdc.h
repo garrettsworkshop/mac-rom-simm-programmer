@@ -26,7 +26,7 @@
 #define HAL_USBCDC_H_
 
 #include <stdint.h>
-#include "usbcdc_hw.h"
+#include "at90usb646/usbcdc_hw.h"
 
 // Note: Functions commented out should be implemented as static inline
 // functions in the board-specific header file for efficiency.
