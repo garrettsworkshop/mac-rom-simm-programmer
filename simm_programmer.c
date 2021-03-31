@@ -260,6 +260,10 @@ static void SIMMProgrammer_HandleWaitingForCommandByte(uint8_t byte)
 		ParallelFlash_SetChipType(ParallelFlash_M29F160FB5AN6E2_x4);
 		USBCDC_SendByte(CommandReplyOK);
 		break;
+	case SetSIMMType2Chip:
+		ParallelFlash_SetChipType(ParallelFlash_MX29LV640EBTI_x2);
+		USBCDC_SendByte(CommandReplyOK);
+		break;
 	case SetVerifyWhileWriting:
 		verifyDuringWrite = true;
 		USBCDC_SendByte(CommandReplyOK);

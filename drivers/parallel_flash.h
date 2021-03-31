@@ -53,6 +53,8 @@ typedef enum ParallelFlashChipType
 	ParallelFlash_SST39SF040_x4,
 	/// Four M29F160FB5AN6E2 chips, 2 MB each, in 8-bit mode, for a total of 8 MB
 	ParallelFlash_M29F160FB5AN6E2_x4,
+	/// Two MX29LV640EBTI chips, 8 MB each, in 16-bit mode, with A23 fixed, for a total of 16 MB, but only 8 MB addressable at a time
+	ParallelFlash_MX29LV640EBTI_x2,
 } ParallelFlashChipType;
 
 // Tells which type of flash chip we are communicating with

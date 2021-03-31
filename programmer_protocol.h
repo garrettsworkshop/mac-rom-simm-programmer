@@ -47,7 +47,8 @@ typedef enum ProgrammerCommand
     ErasePortion,
     WriteChipsAt,
     ReadChipsAt,
-    SetChipsMask
+    SetChipsMask,
+    SetSIMMType2Chip
 } ProgrammerCommand;
 
 // After a command is sent, the programmer will always respond with
